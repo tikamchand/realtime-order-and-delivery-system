@@ -7,7 +7,7 @@ A realtime order and delivery system built with modern technologies, enabling se
 ## System Architecture
 
 ![image](https://res.cloudinary.com/dmbkzc6yo/image/upload/v1746264956/zoxcf2ulxxmuenbwo9by.svg)
-
+video link : https://drive.google.com/file/d/12MjY3bN0gMY4Q09kGn_sAnYdNHuxredS/view?usp=drive_link
 ## Stack used
 
 - **Frontend**: React.js, TailwindCSS, AntD
