@@ -17,6 +17,7 @@ A realtime order and delivery system built with modern technologies, enabling se
 - **Others**: WebSockets, JWT, REST API
 
 ## Folder Structure
+```
 root/
 ├── backend/                 # Node.js backend
 │   ├── deployment/          # Docker, Nginx, deployment configs
@@ -58,27 +59,41 @@ root/
 │   ├── package.json
 │   └── README.md
 └── README.md                # Project overview
-
-
-
+```
 ## Setup instructions
+
  `` git clone https://github.com/tikamchand/realtime-order-and-delivery-system.git``
  
  ** Start application **
+ 
  ``cd realtime-order-and-delivery-system/backend``
+ 
  **Frontend**
  ``cd frontend``
+ 
  ``npm install``
+ 
  ``npm run dev``
+ 
+ 
   ***OR***
+  
   ``docker build -t frontend-app .``
+    
 **Backend**
 ``cd backend``
+
 ``npm install``
+
 ``make start (This will start the container for DB,backend & frontend)``
+
+
 >Frontend(if run through docker) : http://localhost:3000
-Backend : http://localhost:8080
-Mongo-express : http://localhost:8081
+
+>Backend : http://localhost:8080
+
+>Mongo-express : http://localhost:8081
+
 
 ## Hosting & Deployment
 
